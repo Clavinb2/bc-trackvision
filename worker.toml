@@ -3,7 +3,7 @@ main = "./_worker.js"
 compatibility_date = "2025-01-15"
 
 # Serve the static portfolio assets via the bundled Worker.
-assets = { directory = ".", binding = "ASSETS", html_handling = "always_on", not_found_handling = "404" }
+assets = { directory = ".", binding = "ASSETS", html_handling = "auto-trailing-slash", not_found_handling = "single-page-application" }
 
 [observability]
 enabled = true
