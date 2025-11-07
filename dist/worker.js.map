@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": ["../worker.js"],
+  "sourceRoot": "dist",
+  "sourcesContent": ["export default {\n  async fetch(request, env) {\n    let response = await env.ASSETS.fetch(request);\n\n    if (response.status === 404) {\n      const url = new URL(request.url);\n      const isAsset = url.pathname.includes('.') && !url.pathname.endsWith('.');\n\n      if (!isAsset) {\n        url.pathname = url.pathname.endsWith('/') ? `${url.pathname}index.html` : `${url.pathname}/index.html`;\n        response = await env.ASSETS.fetch(new Request(url, request));\n      }\n    }\n\n    if (response.status === 404) {\n      return new Response('Not Found', { status: 404 });\n    }\n\n    return response;\n  },\n};\n\n"],
+  "mappings": ";AAAA,IAAO,iBAAQ;AAAA,EACb,MAAM,MAAM,SAAS,KAAK;AACxB,QAAI,WAAW,MAAM,IAAI,OAAO,MAAM,OAAO;AAE7C,QAAI,SAAS,WAAW,KAAK;AAC3B,YAAM,MAAM,IAAI,IAAI,QAAQ,GAAG;AAC/B,YAAM,UAAU,IAAI,SAAS,SAAS,GAAG,KAAK,CAAC,IAAI,SAAS,SAAS,GAAG;AAExE,UAAI,CAAC,SAAS;AACZ,YAAI,WAAW,IAAI,SAAS,SAAS,GAAG,IAAI,GAAG,IAAI,QAAQ,eAAe,GAAG,IAAI,QAAQ;AACzF,mBAAW,MAAM,IAAI,OAAO,MAAM,IAAI,QAAQ,KAAK,OAAO,CAAC;AAAA,MAC7D;AAAA,IACF;AAEA,QAAI,SAAS,WAAW,KAAK;AAC3B,aAAO,IAAI,SAAS,aAAa,EAAE,QAAQ,IAAI,CAAC;AAAA,IAClD;AAEA,WAAO;AAAA,EACT;AACF;",
+  "names": []
+}

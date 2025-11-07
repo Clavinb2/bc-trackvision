@@ -2,4 +2,7 @@
 wrangler.toml
 worker.toml
 wrangler.jsonc
-
+.git
+node_modules
+dist/worker.js
+dist/worker.js.map
