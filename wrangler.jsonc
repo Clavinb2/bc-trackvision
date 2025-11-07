@@ -1,0 +1,15 @@
+{
+  "name": "bc-trackvision",
+  "main": "_worker.js",
+  "compatibility_date": "2025-11-07",
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS",
+    "html_handling": "always_on",
+    "not_found_handling": "404"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
+
