@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Barry Clavin — Track & Field photography and videography portfolio based in Ireland." />
+    <title>bc_trackvision | Track & Field Photo & Video</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="icon" type="image/png" href="./Logo.png" />
+  </head>
+  <body>
+    <header>
+      <div class="container nav">
+        <a class="nav__logo" href="index.html">
+          <img src="./Logo.png" alt="bc_trackvision logo" width="48" height="48" />
+          <span>bc_trackvision</span>
+        </a>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="primary-menu">
+          <span class="nav__toggle-lines">
+            <span class="nav__toggle-line"></span>
+            <span class="nav__toggle-line"></span>
+            <span class="nav__toggle-line"></span>
+          </span>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+        <nav class="nav__menu" id="primary-menu" aria-label="Primary navigation">
+          <a href="photo.html">Photo</a>
+          <a href="video.html">Video</a>
+          <a href="stories.html">Stories</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a class="nav__cta" href="https://www.instagram.com/bc_trackvision" target="_blank" rel="noreferrer">Instagram</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-label="Hero">
+        <img class="hero__media" src="./assets/images/athletics/hero.jpg" alt="Sprinter exploding out of the blocks" />
+        <div class="hero__content">
+          <p class="hero__eyebrow">Track & Field Photo & Video</p>
+          <h1 class="hero__title">Capturing Ireland’s Fastest Moments</h1>
+          <p class="hero__subtitle">High-performance visuals from the lanes, the roads, and the training ground. Freelance coverage for meets, clubs, and athletes across Ireland.</p>
+          <p class="hero__meta">Freelance → DM · Based in Ireland</p>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="recent-work-heading">
+        <div class="container">
+          <div class="section__heading">
+            <h2 id="recent-work-heading">Recent Work</h2>
+            <div class="badge-list" aria-label="Specialisations">
+              <span class="badge">Track & Field</span>
+              <span class="badge">Road Racing</span>
+              <span class="badge">Club Stories</span>
+            </div>
+          </div>
+          <div class="grid grid--recent-work">
+            <article class="card" data-category="track">
+              <img class="card__media" src="./assets/images/athletics/BC TrackVision - National seniors 2025 ---514.jpg" alt="Relay team exchanging baton" />
+              <div class="card__overlay">
+                <h3 class="card__title">National Senior Track & Field Championships</h3>
+              </div>
+            </article>
+            <article class="card" data-category="road">
+              <img class="card__media" src="./assets/images/athletics/SSAC Tubbercurry St.Patrick's Day 10k - 10k --76.jpg" alt="Road runners rounding a corner" />
+              <div class="card__overlay">
+                <h3 class="card__title">Tubbercurry St. Patrick’s Day 10K</h3>
+              </div>
+            </article>
+            <article class="card" data-category="club">
+              <img class="card__media" src="./assets/images/athletics/1741778168802.jpeg" alt="Athlete stretching during club session" />
+              <div class="card__overlay">
+                <h3 class="card__title">Sarah Healy · European Indoor Championships</h3>
+              </div>
+            </article>
+            <article class="card" data-category="champs">
+              <img class="card__media" src="./assets/images/athletics/Euro-Indoors-BC-TrackVision-07-03-2025-Apeldoorn---258.jpg" alt="High jumper clearing bar indoors" />
+              <div class="card__overlay">
+                <h3 class="card__title">Andy Diaz Hernandez · European Indoor Championships</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="quick-links-heading">
+        <div class="container">
+          <div class="section__heading">
+            <h2 id="quick-links-heading">Explore the Work</h2>
+          </div>
+          <div class="quick-links">
+            <a href="photo.html">Photography Portfolio</a>
+            <a href="video.html">Video Showreels</a>
+            <a href="stories.html">Featured Stories</a>
+            <a href="contact.html">Book a Shoot</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="instagram-heading">
+        <div class="container instagram-feed">
+          <div class="section__heading">
+            <h2 id="instagram-heading">Instagram Feed</h2>
+            <a class="nav__cta" href="https://www.instagram.com/bc_trackvision" target="_blank" rel="noreferrer">Follow @bc_trackvision</a>
+          </div>
+          <div class="instagram-feed__items">
+            <a href="https://www.instagram.com/p/placeholder1" target="_blank" rel="noreferrer">
+              <img src="./assets/images/athletics/1709805567302.jpeg" alt="Sprinter leaning at finish line" />
+            </a>
+            <a href="https://www.instagram.com/p/placeholder2" target="_blank" rel="noreferrer">
+              <img src="./assets/images/athletics/1709805566080.jpeg" alt="Athletes warming up" />
+            </a>
+            <a href="https://www.instagram.com/p/placeholder3" target="_blank" rel="noreferrer">
+              <img src="./assets/images/athletics/Morton Games 2025 - -496.jpg" alt="Relay team celebrating" />
+            </a>
+            <a href="https://www.instagram.com/p/placeholder4" target="_blank" rel="noreferrer">
+              <img src="./assets/images/events/Gurteen Concert 27-09-2025-096.jpg" alt="Performer on stage under spotlight" />
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>© 2025 Barry Clavin · Track & Field Photo & Video · Based in Ireland</p>
+      </div>
+    </footer>
+
+    <script src="./scripts/main.js" defer></script>
+  </body>
+</html>
+

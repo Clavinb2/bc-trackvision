@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact Barry Clavin — bc_trackvision — for freelance track & field photography and videography." />
+    <title>Contact | bc_trackvision</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="icon" type="image/png" href="./Logo.png" />
+  </head>
+  <body>
+    <header>
+      <div class="container nav">
+        <a class="nav__logo" href="index.html">
+          <img src="./Logo.png" alt="bc_trackvision logo" width="48" height="48" />
+          <span>bc_trackvision</span>
+        </a>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="primary-menu">
+          <span class="nav__toggle-lines">
+            <span class="nav__toggle-line"></span>
+            <span class="nav__toggle-line"></span>
+            <span class="nav__toggle-line"></span>
+          </span>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+        <nav class="nav__menu" id="primary-menu" aria-label="Primary navigation">
+          <a href="photo.html">Photo</a>
+          <a href="video.html">Video</a>
+          <a href="stories.html">Stories</a>
+          <a href="about.html">About</a>
+          <a href="contact.html" aria-current="page">Contact</a>
+          <a class="nav__cta" href="https://www.instagram.com/bc_trackvision" target="_blank" rel="noreferrer">Instagram</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-header">
+        <div class="container">
+          <h1>Let’s Work Together</h1>
+          <p>Ready to capture your next meet, street race, or athlete story? Reach out with project details, dates, and any references. I’ll get back within 24 hours.</p>
+        </div>
+      </section>
+
+      <section class="section" aria-label="Contact form">
+        <div class="container split">
+          <form class="contact-form" action="#" method="post">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email / Instagram
+              <input type="text" name="contact" placeholder="you@example.com or @handle" required />
+            </label>
+            <label>
+              Project Details
+              <textarea name="message" rows="5" placeholder="Event, dates, deliverables" required></textarea>
+            </label>
+            <button type="submit">Send Message</button>
+          </form>
+          <div>
+            <div class="cta-banner" style="height: 100%;">
+              <h3>Based in Ireland</h3>
+              <p>Available for nationwide travel and international assignments on request. Ask about multi-day coverage and fast-turnaround packages.</p>
+              <div class="contact-alt">
+                <a href="https://www.instagram.com/bc_trackvision" target="_blank" rel="noreferrer">DM @bc_trackvision</a>
+                <a href="mailto:hello@bctrackvision.com">hello@bctrackvision.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>© 2025 Barry Clavin · Track & Field Photo & Video · Based in Ireland</p>
+      </div>
+    </footer>
+
+    <script src="./scripts/main.js" defer></script>
+  </body>
+</html>
+

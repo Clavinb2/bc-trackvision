@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Photography portfolio for Barry Clavin — bc_trackvision. Track & field, road racing, and club stories." />
+    <title>Photography | bc_trackvision</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="icon" type="image/png" href="./Logo.png" />
+  </head>
+  <body>
+    <header>
+      <div class="container nav">
+        <a class="nav__logo" href="index.html">
+          <img src="./Logo.png" alt="bc_trackvision logo" width="48" height="48" />
+          <span>bc_trackvision</span>
+        </a>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="primary-menu">
+          <span class="nav__toggle-lines">
+            <span class="nav__toggle-line"></span>
+            <span class="nav__toggle-line"></span>
+            <span class="nav__toggle-line"></span>
+          </span>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+        <nav class="nav__menu" id="primary-menu" aria-label="Primary navigation">
+          <a href="photo.html" aria-current="page">Photo</a>
+          <a href="video.html">Video</a>
+          <a href="stories.html">Stories</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a class="nav__cta" href="https://www.instagram.com/bc_trackvision" target="_blank" rel="noreferrer">Instagram</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-header">
+        <div class="container">
+          <h1>Photography</h1>
+          <p>High-contrast, emotion-first imagery from Ireland’s tracks, roads, and training grounds. Select a category to explore curated collections.</p>
+          <div class="filters" role="tablist" aria-label="Photo categories">
+            <button type="button" class="is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+            <button type="button" data-filter="track" role="tab">Track &amp; Field</button>
+            <button type="button" data-filter="road" role="tab">Road Races</button>
+            <button type="button" data-filter="club" role="tab">Club Stories</button>
+            <button type="button" data-filter="champs" role="tab">Championships</button>
+            <button type="button" data-filter="gaa" role="tab">GAA</button>
+            <button type="button" data-filter="events" role="tab">Events</button>
+            <button type="button" data-filter="rugby" role="tab">Rugby</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-label="Photo gallery">
+        <div class="container grid grid--recent-work">
+          <article class="card" data-category="track">
+            <img class="card__media" src="./assets/images/athletics/BC TrackVision - National seniors 2025 ---514.jpg" alt="Sprinter pushing out of the blocks" />
+            <div class="card__overlay">
+              <h3 class="card__title">Start Line Surge · National Senior Championships</h3>
+            </div>
+          </article>
+          <article class="card" data-category="track">
+            <img class="card__media" src="./assets/images/athletics/BC TrackVision - National seniors 2025 ---223.jpg" alt="Runner charging down the back straight" />
+            <div class="card__overlay">
+              <h3 class="card__title">Back Straight Drive · National Senior Championships</h3>
+            </div>
+          </article>
+          <article class="card" data-category="track">
+            <img class="card__media" src="./assets/images/athletics/Morton Games 2025 - -496.jpg" alt="Runner celebrating under stadium lights" />
+            <div class="card__overlay">
+              <h3 class="card__title">Champion of the Night · Morton Games</h3>
+            </div>
+          </article>
+          <article class="card" data-category="track">
+            <img class="card__media" src="./assets/images/athletics/1709805567302.jpeg" alt="Hurdler exploding from the blocks" />
+            <div class="card__overlay">
+              <h3 class="card__title">Block Start Focus · World Championships</h3>
+            </div>
+          </article>
+          <article class="card" data-category="track">
+            <img class="card__media" src="./assets/images/athletics/1709805566080.jpeg" alt="Relay runner leaning at the finish" />
+            <div class="card__overlay">
+              <h3 class="card__title">Finish Line Grit · World Championships</h3>
+            </div>
+          </article>
+          <article class="card" data-category="track">
+            <img class="card__media" src="./assets/images/athletics/DSC02784.jpg" alt="Sprinter sprinting on indoor straight" />
+            <div class="card__overlay">
+              <h3 class="card__title">Stride Mechanics · Indoor Reps</h3>
+            </div>
+          </article>
+          <article class="card" data-category="track">
+            <img class="card__media" src="./assets/images/athletics/hero.jpg" alt="Runner silhouetted under lights" />
+            <div class="card__overlay">
+              <h3 class="card__title">Hero Frame · TrackVision</h3>
+            </div>
+          </article>
+          <article class="card" data-category="road">
+            <img class="card__media" src="./assets/images/athletics/SSAC Tubbercurry St.Patrick's Day 10k - 10k --76.jpg" alt="Road runners taking a corner" />
+            <div class="card__overlay">
+              <h3 class="card__title">Tubbercurry St. Patrick’s Day 10K</h3>
+            </div>
+          </article>
+          <article class="card" data-category="champs">
+            <img class="card__media" src="./assets/images/athletics/1741778168802.jpeg" alt="Athlete stretching on turf" />
+            <div class="card__overlay">
+              <h3 class="card__title">Sarah Healy · World Championships</h3>
+            </div>
+          </article>
+          <article class="card" data-category="club">
+            <img class="card__media" src="./assets/images/athletics/DCU Athletics Media Day 25-09-25 ----002.jpg" alt="Athlete posing for media day portrait" />
+            <div class="card__overlay">
+              <h3 class="card__title">Media Day Portraits · DCU Athletics</h3>
+            </div>
+          </article>
+          <article class="card" data-category="champs">
+            <img class="card__media" src="./assets/images/athletics/Euro-Indoors-BC-TrackVision-07-03-2025-Apeldoorn---258.jpg" alt="High jumper clearing bar indoors" />
+            <div class="card__overlay">
+              <h3 class="card__title">Podium Heights · European Indoors</h3>
+            </div>
+          </article>
+          <article class="card" data-category="champs">
+            <img class="card__media" src="./assets/images/athletics/BC TrackVision - National seniors 2025 ---538.jpg" alt="Long jumper suspended mid-air" />
+            <div class="card__overlay">
+              <h3 class="card__title">Sand Pit Flight · National Series</h3>
+            </div>
+          </article>
+          <article class="card" data-category="events">
+            <img class="card__media" src="./assets/images/events/DCU SR Car Prototype Launch ---091.jpg" alt="Close-up of DCU SR prototype car" />
+            <div class="card__overlay">
+              <h3 class="card__title">SR Prototype Launch · Detail</h3>
+            </div>
+          </article>
+          <article class="card" data-category="events">
+            <img class="card__media" src="./assets/images/events/DCU SR Car Prototype Launch ---143.jpg" alt="Team posing beside prototype car" />
+            <div class="card__overlay">
+              <h3 class="card__title">SR Prototype Launch · Team Lineup</h3>
+            </div>
+          </article>
+          <article class="card" data-category="events">
+            <img class="card__media" src="./assets/images/events/Gurteen Concert 27-09-2025-056.jpg" alt="Guitarist performing at concert" />
+            <div class="card__overlay">
+              <h3 class="card__title">Gurteen Concert · Opening Set</h3>
+            </div>
+          </article>
+          <article class="card" data-category="events">
+            <img class="card__media" src="./assets/images/events/Gurteen Concert 27-09-2025-075.jpg" alt="Singer under blue stage lights" />
+            <div class="card__overlay">
+              <h3 class="card__title">Gurteen Concert · Spotlight Solo</h3>
+            </div>
+          </article>
+          <article class="card" data-category="events">
+            <img class="card__media" src="./assets/images/events/Gurteen Concert 27-09-2025-096.jpg" alt="Audience watching live performance" />
+            <div class="card__overlay">
+              <h3 class="card__title">Gurteen Concert · Crowd Atmosphere</h3>
+            </div>
+          </article>
+          <article class="card" data-category="events">
+            <img class="card__media" src="./assets/images/events/Gurteen Concert 27-09-2025-141.jpg" alt="Vocalist singing into microphone" />
+            <div class="card__overlay">
+              <h3 class="card__title">Gurteen Concert · Vocal Lead</h3>
+            </div>
+          </article>
+          <article class="card" data-category="events">
+            <img class="card__media" src="./assets/images/events/Gurteen Concert 27-09-2025-190.jpg" alt="String section performing on stage" />
+            <div class="card__overlay">
+              <h3 class="card__title">Gurteen Concert · Strings Feature</h3>
+            </div>
+          </article>
+          <article class="card" data-category="events">
+            <img class="card__media" src="./assets/images/events/Gurteen Concert 27-09-2025-221.jpg" alt="Band taking a bow" />
+            <div class="card__overlay">
+              <h3 class="card__title">Gurteen Concert · Encore</h3>
+            </div>
+          </article>
+          <article class="card" data-category="events">
+            <img class="card__media" src="./assets/images/events/Irish-Sporting Legends-night---183.jpg" alt="Speaker addressing Irish sporting legends event" />
+            <div class="card__overlay">
+              <h3 class="card__title">Irish Sporting Legends Night</h3>
+            </div>
+          </article>
+          <article class="card" data-category="events">
+            <img class="card__media" src="./assets/images/events/WMQ Townhall Comedy Night 22-11-2024 ---09.jpg" alt="Comedian performing on stage" />
+            <div class="card__overlay">
+              <h3 class="card__title">WMQ Comedy Night · Opening Act</h3>
+            </div>
+          </article>
+          <article class="card" data-category="events">
+            <img class="card__media" src="./assets/images/events/WMQ Xmas Market Day 1-009.jpg" alt="Christmas market stalls" />
+            <div class="card__overlay">
+              <h3 class="card__title">WMQ Christmas Market · Day One</h3>
+            </div>
+          </article>
+          <article class="card" data-category="events">
+            <img class="card__media" src="./assets/images/events/WMQ Xmas Market Day 1-010.jpg" alt="Shoppers exploring Christmas market" />
+            <div class="card__overlay">
+              <h3 class="card__title">WMQ Christmas Market · Festive Stalls</h3>
+            </div>
+          </article>
+          <article class="card" data-category="gaa">
+            <img class="card__media" src="./assets/images/gaa/Bunninadden GAA.jpg" alt="GOWA sports products on display" />
+            <div class="card__overlay">
+              <h3 class="card__title"></h3>
+            </div>
+          </article>
+          <article class="card" data-category="gaa">
+            <img class="card__media" src="./assets/images/gaa/Bunninadden GAA 2.jpg" alt="GOWA sports bag close-up" />
+            <div class="card__overlay">
+              <h3 class="card__title"></h3>
+            </div>
+          </article>
+          <article class="card" data-category="gaa">
+            <img class="card__media" src="./assets/images/gaa/Bunninadden GAA 3.jpg" alt="GOWA sports gear lineup" />
+            <div class="card__overlay">
+              <h3 class="card__title"></h3>
+            </div>
+          </article>
+          <article class="card" data-category="gaa">
+            <img class="card__media" src="./assets/images/gaa/Sligo Masters v Leitrim-Longford ---71.jpg" alt="Masters players contesting the ball" />
+            <div class="card__overlay">
+              <h3 class="card__title">Masters Clash · Sligo vs Leitrim-Longford</h3>
+            </div>
+          </article>
+          <article class="card" data-category="gaa">
+            <img class="card__media" src="./assets/images/gaa/Sligo v Antrim ---038.jpg" alt="Players leaping for possession" />
+            <div class="card__overlay">
+              <h3 class="card__title">Connacht Clash · Midfield Battle</h3>
+            </div>
+          </article>
+          <article class="card" data-category="gaa">
+            <img class="card__media" src="./assets/images/gaa/Sligo v Antrim ---066.jpg" alt="Player catching high ball" />
+            <div class="card__overlay">
+              <h3 class="card__title">Connacht Clash · High Catch</h3>
+            </div>
+          </article>
+          <article class="card" data-category="gaa">
+            <img class="card__media" src="./assets/images/gaa/Sligo v Antrim ---089.jpg" alt="Defender blocking a shot" />
+            <div class="card__overlay">
+              <h3 class="card__title">Connacht Clash · Defensive Stand</h3>
+            </div>
+          </article>
+          <article class="card" data-category="gaa">
+            <img class="card__media" src="./assets/images/gaa/St Brigids GAA 7s Tournament 31-05-25-034.jpg" alt="Player sidestepping opponent at 7s tournament" />
+            <div class="card__overlay">
+              <h3 class="card__title">St Brigid's GAA 7s Tournament</h3>
+            </div>
+          </article>
+          <article class="card" data-category="rugby">
+            <img class="card__media" src="./assets/images/rugby-1.jpg" alt="Rugby players warming up" />
+            <div class="card__overlay">
+              <h3 class="card__title">Warm-Up Focus · Varsity Rugby</h3>
+            </div>
+          </article>
+          <article class="card" data-category="rugby">
+            <img class="card__media" src="./assets/images/rugby-2.jpg" alt="Rugby players celebrating with medals" />
+            <div class="card__overlay">
+              <h3 class="card__title">Medal Moments · Varsity Rugby</h3>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" aria-label="Lightbox placeholder">
+        <div class="container cta-banner">
+          <h3>Lightbox &amp; Story Captions Coming Soon</h3>
+          <p>Full-screen viewing with race notes and athlete quotes is on the roadmap. For now, reach out for full galleries.</p>
+          <a class="nav__cta" href="contact.html">Request Full Coverage</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>© 2025 Barry Clavin · Track & Field Photo & Video · Based in Ireland</p>
+      </div>
+    </footer>
+
+    <script src="./scripts/main.js" defer></script>
+  </body>
+</html>
+

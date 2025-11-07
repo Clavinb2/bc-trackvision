@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Video reels and motion storytelling by Barry Clavin — bc_trackvision." />
+    <title>Video Reels | bc_trackvision</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="icon" type="image/png" href="./Logo.png" />
+  </head>
+  <body>
+    <header>
+      <div class="container nav">
+        <a class="nav__logo" href="index.html">
+          <img src="./Logo.png" alt="bc_trackvision logo" width="48" height="48" />
+          <span>bc_trackvision</span>
+        </a>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="primary-menu">
+          <span class="nav__toggle-lines">
+            <span class="nav__toggle-line"></span>
+            <span class="nav__toggle-line"></span>
+            <span class="nav__toggle-line"></span>
+          </span>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+        <nav class="nav__menu" id="primary-menu" aria-label="Primary navigation">
+          <a href="photo.html">Photo</a>
+          <a href="video.html" aria-current="page">Video</a>
+          <a href="stories.html">Stories</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a class="nav__cta" href="https://www.instagram.com/bc_trackvision" target="_blank" rel="noreferrer">Instagram</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-header">
+        <div class="container">
+          <h1>Video Reels</h1>
+          <p>Dynamic motion stories capturing the power and pace of athletics nationwide. Showreels, event recaps, and athlete-focused features.</p>
+        </div>
+      </section>
+
+      <section class="section" aria-label="Featured showreel">
+        <div class="container">
+          <div class="cta-banner">
+            <h3>2024 Season Highlights</h3>
+            <p>Short-form reels capturing national championships, club meets, and street races. Hero footage pulls you into the atmosphere.</p>
+            <div style="position: relative; padding-top: 56.25%; border-radius: 16px; overflow: hidden; background-color: #111;">
+              <iframe
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                title="2024 Season Highlights"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+                style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;" aria-label="Embedded highlight reel"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-label="Video gallery">
+        <div class="container grid">
+          <div class="section__heading">
+            <h2>Event Reels</h2>
+          </div>
+          <div class="grid grid--recent-work">
+            <article class="card" data-category="event">
+              <img class="card__media" src="./assets/images/athletics/Morton Games 2025 - -496.jpg" alt="Relay team celebrating" />
+              <div class="card__overlay">
+                <h3 class="card__title">Morton Games · 45s recap</h3>
+              </div>
+            </article>
+            <article class="card" data-category="event">
+              <img class="card__media" src="./assets/images/athletics/1709805566080.jpeg" alt="Runner crossing finish line" />
+              <div class="card__overlay">
+                <h3 class="card__title">City Streets 10K · Social teaser</h3>
+              </div>
+            </article>
+            <article class="card" data-category="event">
+              <img class="card__media" src="./assets/images/athletics/1709805567302.jpeg" alt="Athlete launching javelin" />
+              <div class="card__overlay">
+                <h3 class="card__title">Universities Series · Highlights</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-label="Emotion in motion">
+        <div class="container">
+          <div class="section__heading">
+            <h2>Emotion in Motion</h2>
+          </div>
+          <div class="stories-grid">
+            <article class="story-card">
+              <h3>Race Day Pulse</h3>
+              <p>Interviews with the relay squad minutes after the baton exchange. Layered audio, tight frames, and kinetic typography bring the energy to life.</p>
+            </article>
+            <article class="story-card">
+              <h3>Club Legacy</h3>
+              <p>Mini-doc following DCU Athletics through their indoor season, blending training footage, archival clips, and voiceover narration.</p>
+            </article>
+            <article class="story-card">
+              <h3>Road to Nationals</h3>
+              <p>Athlete profile piece charting the build-up to national championships — a storytelling format ready to expand into a series.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>© 2025 Barry Clavin · Track & Field Photo & Video · Based in Ireland</p>
+      </div>
+    </footer>
+
+    <script src="./scripts/main.js" defer></script>
+  </body>
+</html>
+

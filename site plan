@@ -1,0 +1,223 @@
+ Here’s a Requirements Document for your bc_trackvision portfolio website, based directly on your brand identity and goals:
+🏁 bc_trackvision Portfolio Site Requirements
+1. Purpose
+Create a clean, black-and-white, visually driven portfolio website that showcases Barry Clavin’s sports photography and videography — focused on track & field, road running, and athletic storytelling.
+The site should act as both a digital showcase and a freelance contact point, extending the personality and visual identity of your Instagram presence.
+2. Target Audience
+Athletes and athletics clubs seeking photo/video coverage
+Event organisers (e.g., road races, championships)
+Sports media outlets
+Fans and the athletics community in Ireland
+3. Core Goals
+Showcase Work: Highlight your best photography and videography with dynamic, easy-to-navigate galleries.
+Promote Services: Communicate that you are open for freelance bookings (“Freelance → DM” / “Contact Me”).
+Build Credibility: Reinforce your niche identity — “Track & Field Photo & Video, Based in Ireland”.
+Tell Stories: Bring emotion and authenticity through short captions and behind-the-scenes features.
+Direct Users to Instagram: Maintain a connection with your growing Instagram community.
+4. Visual Style & Branding
+Colour Palette:
+Primary: Black (#000000)
+Secondary: White (#FFFFFF)
+Accent: Light grey (#E0E0E0) or minimal muted tones for contrast
+Media emphasis: Colour pops come only from your photo/video content
+Typography:
+Headings: Bold sans-serif (e.g., Montserrat, Bebas Neue)
+Body: Clean sans-serif (e.g., Inter, Lato)
+Mood: Minimalist, strong, high-contrast
+Imagery:
+Full-width action shots
+Balanced mix of stills and embedded video reels
+Use of slow-motion / race intensity clips in hero section
+5. Site Structure
+Homepage ("Hero Feed")
+Black background with full-screen hero video/photo header
+Tagline: “Track & Field Photo & Video — Capturing Ireland’s Fastest Moments”
+Subtext: “Freelance → DM | Based in Ireland”
+Grid or carousel of recent posts (Instagram-style feed)
+Quick links to Photo, Video, About, Contact
+Photo Gallery
+Filterable by category:
+Track & Field
+Road Races
+Club & Training
+Championships
+Lightbox view for fullscreen photos
+Optional short captions for story/context
+Video Reel Page
+Embedded reels / showreel highlights (from Vimeo, YouTube, or self-hosted)
+Short project descriptions (event name, club, date)
+Emphasis on storytelling — “Emotion in Motion” section showcasing athlete interviews or race recaps
+About Page
+Profile photo or minimal portrait
+Bio:
+“Barry Clavin — Track & Field Photo & Video”
+Short background on your athletics involvement and visual work
+Mention role: Chairperson of DCU Athletics Club (shows credibility and passion)
+CTA: “Available for freelance shoots — contact below”
+Contact Page
+Simple black-and-white contact form
+Options:
+Name
+Email / Instagram handle
+Message / booking details
+Alternative: “DM me on Instagram @bc_trackvision” button
+Embedded Instagram feed preview
+Featured Stories (Optional / Blog Section)
+Short write-ups:
+Athlete features (“Meet the athlete”)
+Event highlights (“The purple mile was unforgettable…”)
+Behind-the-scenes (“Training with Sligo LGFA…”)
+Strengthens storytelling and SEO presence
+6. Functional Requirements
+Category	Requirement
+Responsiveness	Fully responsive on desktop, tablet, and mobile
+Performance	Optimised image/video loading (lazy loading, compression)
+CMS Integration	Optional: use a CMS (e.g. Webflow, Framer, or a lightweight CMS like Ghost) for easy content updates
+Social Integration	Instagram embedding or API to auto-pull new posts
+Analytics	Google Analytics or Plausible integration
+SEO	Meta tags, alt text, descriptive titles for discoverability
+Security	HTTPS and spam-protected forms
+Accessibility	High contrast text, alt text, ARIA labels
+7. Tone & Messaging
+Authentic: “Real moments. Real athletes.”
+Energetic: Highlight the emotion and intensity of sport.
+Minimalist: Let the visuals lead — minimal text, bold visuals.
+Professional but personal: Speak as both athlete and creator.
+8. Future Enhancements
+Athlete Spotlight Series — rotating featured athletes or clubs.
+Shop Page — prints or digital downloads of select shots.
+Booking Calendar — integrated scheduling for shoots.
+Email Newsletter — “TrackVision Weekly: Highlights & Stories.
+🗺️ 1. Visual Sitemap
+bc_trackvision.com
+│
+├── Home (Hero Feed)
+│     ├── Hero Section (video/photo + tagline)
+│     ├── Recent Work (photo/video grid)
+│     ├── Quick Links (Photo | Video | About | Contact)
+│     └── Instagram Feed (auto pull or embedded)
+│
+├── Photo Gallery
+│     ├── Track & Field
+│     ├── Road Races
+│     ├── Club & Training
+│     ├── Championships
+│     └── Lightbox View (fullscreen)
+│
+├── Video Reels
+│     ├── Showreel Highlight
+│     ├── Event Reels
+│     ├── Athlete Stories
+│     └── Embedded Vimeo/YouTube player
+│
+├── Featured Stories (optional)
+│     ├── Athlete Features
+│     ├── Event Highlights
+│     └── Behind the Scenes
+│
+├── About
+│     ├── Profile Photo
+│     ├── Bio / Background
+│     └── CTA: “Available for freelance shoots”
+│
+└── Contact
+      ├── Contact Form
+      ├── Instagram / Email links
+      └── Map or location text: “Based in Ireland”
+🧱 2. Wireframe Plan (Black & White Theme)
+🏠 Homepage ("Hero Feed")
+Layout:
+--------------------------------------------------------
+| LOGO (top-left)     | MENU (top-right: Photo | Video |
+|                     | About | Contact | IG icon)     |
+--------------------------------------------------------
+| FULLSCREEN HERO VIDEO or PHOTO                        |
+| Text overlay:                                          |
+|   "Track & Field Photo & Video"                        |
+|   "Capturing Ireland’s Fastest Moments"                |
+|   [Freelance → DM | Based in Ireland] (smaller text)   |
+--------------------------------------------------------
+| GALLERY GRID (3x3 recent posts)                        |
+|  • Clicking opens Lightbox                            |
+|  • Hover: caption overlay ("The purple mile...")       |
+--------------------------------------------------------
+| INSTAGRAM FEED (auto-sync or embed)                   |
+| [Follow @bc_trackvision]                              |
+--------------------------------------------------------
+| FOOTER: © 2025 Barry Clavin | Social Icons            |
+--------------------------------------------------------
+Tone: Bold, cinematic, monochrome. The first impression should feel dynamic yet minimal.
+📸 Photo Gallery
+Layout:
+--------------------------------------------------------
+| PAGE TITLE: "Photography" (white on black)            |
+--------------------------------------------------------
+| CATEGORY FILTER BAR                                   |
+| [All] [Track & Field] [Road Races] [Training] [Champs]|
+--------------------------------------------------------
+| IMAGE GRID (3–4 columns)                              |
+| Hover → show caption snippet                          |
+| Click → fullscreen lightbox with caption, event, date |
+--------------------------------------------------------
+Notes:
+Keep background black, with white text and light-grey hover borders.
+Large thumbnails, minimal text.
+🎥 Video Reels
+Layout:
+--------------------------------------------------------
+| PAGE TITLE: "Video"                                   |
+--------------------------------------------------------
+| FEATURED VIDEO: Full-width embedded showreel           |
+| Caption: "2024 Season Highlights"                     |
+--------------------------------------------------------
+| GRID OF VIDEOS (3 across):                             |
+| - Event Name / Club                                   |
+| - 15–30 sec previews                                  |
+--------------------------------------------------------
+| SECTION: "Emotion in Motion" (athlete stories)        |
+--------------------------------------------------------
+Visual cue: Still frames in grayscale until hover → colour preview or play button.
+📰 Featured Stories (Optional)
+Layout:
+--------------------------------------------------------
+| PAGE TITLE: "Stories"                                 |
+--------------------------------------------------------
+| ARTICLE PREVIEWS (2-column layout):                   |
+| [Thumbnail + Title + Snippet + Read more →]           |
+--------------------------------------------------------
+| Each opens short article page with inline photos      |
+--------------------------------------------------------
+Purpose: Extend storytelling, add SEO content, showcase your voice.
+👤 About Page
+Layout:
+--------------------------------------------------------
+| HEADSHOT or portrait on left (BW)                     |
+| Bio text on right:                                    |
+|  "Barry Clavin — Track & Field Photo & Video"          |
+|  "Based in Ireland | Freelance → DM"                  |
+|  "Chairperson of DCU Athletics Club"                  |
+|  Short paragraph about passion for athletics visuals   |
+--------------------------------------------------------
+| CTA BUTTON: "Get in Touch" → Contact Page              |
+--------------------------------------------------------
+Optional: small slider with “Behind the Lens” moments.
+✉️ Contact Page
+Layout:
+--------------------------------------------------------
+| PAGE TITLE: "Contact"                                 |
+--------------------------------------------------------
+| Contact Form:                                         |
+| [Name] [Email] [Message]                              |
+| Submit Button → "Send Message"                        |
+--------------------------------------------------------
+| Alternative contact: "DM me on Instagram @bc_trackvision" |
+| Social icons: IG, YouTube, Threads                    |
+--------------------------------------------------------
+| Footer: "Based in Ireland"                            |
+--------------------------------------------------------
+Clean, simple form — minimal clutter.
+💡 3. Design Notes
+Hover animations: subtle fades or slow zooms.
+Transitions: smooth crossfades between pages (Framer Motion or GSAP recommended).
+Watermark or logo: small, consistent in bottom-right of images.
+Navigation: sticky header for easy switching between pages.
