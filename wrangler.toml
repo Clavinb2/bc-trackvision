@@ -1,7 +1,7 @@
 name = "bc-trackvision"
-main = "_worker.js"
+main = "worker.js"
 compatibility_date = "2025-11-07"
 
 [assets]
-directory = "."
+directory = "./"
 binding = "ASSETS"
