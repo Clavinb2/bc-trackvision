@@ -4,4 +4,8 @@ compatibility_date = "2025-11-07"
 
 [assets]
 directory = "./"
-binding = "ASSETS"
+binding   = "ASSETS"
+
+[[r2_buckets]]
+binding     = "trackvision_bucket"
+bucket_name = "trackvision"
