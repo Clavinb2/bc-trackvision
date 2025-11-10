@@ -13,7 +13,7 @@ export default {
     };
 
     if (url.pathname.startsWith('/videos/')) {
-      const objectKey = url.pathname.replace(/^\/videos\//, '');
+      const objectKey = decodeURIComponent(url.pathname.replace(/^\/videos\//, ''));
       const rangeHeader = request.headers.get('Range');
       const range = parseRangeHeader(rangeHeader);
 
